@@ -1,7 +1,8 @@
 @font-face {
     font-family: 'Mafisha', sans-serif;
-    src: url(http://fonts.cdnfonts.com/css/mafisha)
-
+    src: url(../Mafisha-1G5AL.otf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
 }
 
 body {
