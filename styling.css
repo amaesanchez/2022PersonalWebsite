@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Mafisha', sans-serif;
-    src: url(../Mafisha-1G5AL.otf) format('truetype');
+    src: url(../../Mafisha-1G5AL.otf) format('truetype');
     font-weight: bold;
     font-style: normal;
 }
@@ -16,7 +16,6 @@ body {
     font-size: large;
 }
 
-/* add photo of nightsky */
 .jumbotron {
     font-family: 'Mafisha', sans-serif;
     background: url("NightSky.jpg") no-repeat center;
@@ -31,7 +30,25 @@ body {
 }
 
 .About-sec {
-    background: rgb(238, 235, 255);
-    padding-top: 300px;
-    padding-bottom: 300px;
+    font-family: 'Mafisha', sans-serif;
+    background-color: rgb(238, 235, 255);
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 800px;
+    left: 0;
+    right: 0;
+    padding-top: 125px;
+}
+
+.boxtext {
+    font-size: 25px;
+    padding-left: 150px;
+    overflow-wrap: break-word;
+}
+
+.photo {
+    max-width: 38%;
+    padding-left: 150px;
+
 }
