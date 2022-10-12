@@ -1,11 +1,7 @@
 @font-face {
     font-family: 'Mafisha', sans-serif;
-<<<<<<< HEAD
-    src: url(https://fonts.cdnfonts.com/css/mafisha);
-=======
     src: url(http://fonts.cdnfonts.com/css/mafisha)
 
->>>>>>> 576ef526a466ae622478ffa6dce8676694ee1ef2
 }
 
 body {
