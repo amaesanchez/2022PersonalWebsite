@@ -5,6 +5,9 @@
     font-style: normal;
 }
 
+body {
+    background-color: rgb(240, 233, 214);
+}
 
 .navbar {
     font-family: 'Mafisha', sans-serif;
@@ -18,17 +21,17 @@
     background: url("./photos/NightSky.jpg") no-repeat center;
     background-size: cover;
     min-height:100vh;
+    width: 100%;
     font-family: 'Mafisha', sans-serif;
     color: white;
-    padding-top: 275px;
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-bottom: 225px;
+    padding-top: 18%;
+    padding-left: 13%;
+    padding-right: 13%;
+    padding-bottom: 18%;
 }
 
 
 .About-sec {
-    background-color: rgb(240, 233, 214);
     display:grid;
     grid-template-columns: 1fr 50em;
     font-family: 'Mafisha', sans-serif;
@@ -55,7 +58,6 @@
 }
 
 .resume-sec {
-    background-color: rgb(240, 233, 214);
     grid-template-columns: 1fr 50em;
     font-family: 'Mafisha', sans-serif;
     width: 100%;
