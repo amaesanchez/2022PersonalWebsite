@@ -15,7 +15,7 @@
 }
 
 .jumbotron {
-    background: url("NightSky.jpg") no-repeat center;
+    background: url("./photos/NightSky.jpg") no-repeat center;
     background-size: cover;
     min-height:100vh;
     font-family: 'Mafisha', sans-serif;
@@ -32,10 +32,9 @@
     display:grid;
     grid-template-columns: 1fr 50em;
     font-family: 'Mafisha', sans-serif;
-    position: absolute;
     width: 100%;
     min-height: 100vh;
-    padding-top: 150px;
+    padding-top: 100px;
     padding-left:150px;
 }
 
@@ -56,8 +55,19 @@
 }
 
 .resume-sec {
+    background-color: rgb(240, 233, 214);
+    grid-template-columns: 1fr 50em;
+    font-family: 'Mafisha', sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 100px;
+    padding-left:150px;
 
 }
 
-.contact-sec {
+footer {
+    background-color: #040415;
+    color: white;
+    min-height:25vh;
+
 }
