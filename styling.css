@@ -70,10 +70,15 @@ body {
 }
 
 footer {
-    display: grid;
     text-align:center;
-    padding-top:10vh;
     background-color: #040415;
-    color:rgb(255, 254, 249);
-    min-height:40vh;
+    color:rgb(156, 156, 156);
+    height:40vh;
+    padding-top:5vh;
+}
+
+.logos {
+    padding-top: 7vh;
+    margin-right: 3%;
+    margin-left: 3%;
 }
