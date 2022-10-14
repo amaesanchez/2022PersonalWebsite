@@ -1,6 +1,11 @@
+@font-face {
+    font-family: 'Adegoke', sans-serif;
+    src: url(Adegoke-x3dY8.ttf);
+}
+
 body {
     background-color: rgb(253, 247, 232);
-    font-family: 'Mafisha', sans-serif;
+    font-family: 'Adegoke', sans-serif;
 }
 
 .navbar {
@@ -16,7 +21,6 @@ body {
     background-size: cover;
     min-height:100vh;
     width: 100%;
-    font-family: 'Mafisha', sans-serif;
     color: white;
     padding-top: 18%;
     padding-left: 13%;
@@ -72,11 +76,4 @@ footer {
     background-color: #040415;
     color:rgb(255, 254, 249);
     min-height:40vh;
-}
-
-@font-face {
-    font-family: 'Mafisha', sans-serif;
-    src: url(Mafisha-1G5AL.otf) format('truetype');
-    font-weight: bold;
-    font-style: normal;
 }
