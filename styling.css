@@ -1,6 +1,7 @@
 body {
     background-color: rgb(253, 247, 232);
     font-family: 'Adegoke', sans-serif;
+    font-feature-settings:"liga" 0;
 }
 
 /* For screens larger than 601px width */
