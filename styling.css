@@ -3,77 +3,228 @@ body {
     font-family: 'Adegoke', sans-serif;
 }
 
-.navbar {
-    background-color: #040415;
+/* For screens larger than 601px width */
+@media screen and (min-width: 601px) {
+    .navbar, .navbar-brand {
+        background-color: #040415;
+    }
+
+    .navbar-brand {
+        font-size: large;
+    }
+
+    .jumbotron {
+        background: url("./photos/NightSky.jpg") no-repeat center;
+        background-size: cover;
+        height:100vh;
+        width: 100%;
+        color: white;
+        padding-top: 18%;
+        padding-left: 13%;
+        padding-right: 13%;
+        padding-bottom: 18%;
+        position: relative;
+    }
+
+    .jumbotron > #LandingTitle {
+        font-size: 80px;
+    }
+
+    .jumbotron > #FirstHeader {
+        font-size: 33px;
+    }
+
+    .jumbotron > #SecHeader {
+        font-size: 18px;
+    }
+
+    .LandingLinks {
+        color:white;
+    }
+
+    /* added photoid */
+    .jumbotron > #photoid {
+        position:absolute;
+        right:5px;
+        bottom: 5px;
+        font-size: small;
+    }
+
+    .About-sec {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100vw;
+        min-height: 100vh;
+        padding-top: 100px;
+        padding-left: 13%;
+        padding-right: 13%;
+    }
+
+    .About-sec > #photo-layout {
+        max-width: 400px;
+        vertical-align: top;
+        float: left;
+        border: 3px solid white;
+        border-radius: 20px;
+    }
+
+    .Abouttext {
+        font-size: 18px;
+        color: #040415;
+        overflow-wrap: break-word;
+        text-align: left;
+    }
+
+    .Abouttext > #resume {
+        color: rgb(86, 88, 121)
+    }
+
+    .projects-sec {
+        min-height: 100vh;
+        padding-top: 6%;
+        padding-left: 13%;
+        padding-right: 13%;
+        text-align: center;
+        color: #040415;
+    }
+
+    .projecttitle {
+        font-size: 28px;
+    }
+
+    .languages {
+        font-size: 16px;
+    }
+
+    .calcproject {
+        max-width: 450px;
+        box-shadow: 7px 7px 7px #7a7a7a;
+    }
+
+    footer {
+        text-align:center;
+        background-color: #040415;
+        color:rgb(156, 156, 156);
+        height:40vh;
+        padding-top:5vh;
+    }
+
+    .logos {
+        margin-top: 6.5vh;
+        margin-right: 3%;
+        margin-left: 3%;
+    }
 }
 
-.navbar-brand {
-    font-size: large;
-}
-
-.jumbotron {
-    background: url("./photos/NightSky.jpg") no-repeat center;
-    background-size: cover;
-    min-height:100vh;
-    width: 100%;
-    color: white;
-    padding-top: 18%;
-    padding-left: 13%;
-    padding-right: 13%;
-    padding-bottom: 18%;
-}
 
 
-.About-sec {
-    display:grid;
-    grid-template-columns: 1fr 50em;
-    width: 100%;
-    min-height: 100vh;
-    padding-top: 100px;
-    padding-left:150px;
-}
+/* Layout in mobile screens */
+@media screen and (max-width: 600px) {
+    .navbar, .navbar-brand {
+        background-color: #040415;
+    }
 
-.photo-layout {
-    max-width: 80%;
-    vertical-align: top;
-    float: left;
-    border: 3px solid white;
-    border-radius: 20px;
-}
+    .navbar-brand {
+        font-size: large;
+    }
 
-.boxtext {
-    font-size: 18px;
-    color: #040415;
-    overflow-wrap: break-word;
-    text-align: left;
-    padding-right: 150px;
-}
+    .jumbotron {
+        background: url("./photos/NightSky.jpg") no-repeat center;
+        background-size: cover;
+        height:100vh;
+        width: 100%;
+        color: white;
+        padding-top: 18%;
+        padding-left: 13%;
+        padding-right: 13%;
+        padding-bottom: 18%;
+        position: relative;
+    }
 
-.projects-sec {
-    text-align: center;
-    color: #040415;
-    min-height: 100vh;
-    padding-top: 8%;
-    padding-left: 10%;
-    padding-right: 10%;
+    .jumbotron > #LandingTitle {
+        font-size: 60px;
+      }
 
-}
+    .jumbotron > #FirstHeader {
+        font-size: 27px;
+    }
 
-.calcproject {
-    max-width: 40%;
-    box-shadow: 7px 7px 7px #7a7a7a;
-}
+    .jumbotron > #SecHeader {
+        font-size:18px;
+    }
 
-footer {
-    text-align:center;
-    background-color: #040415;
-    color:rgb(156, 156, 156);
-    height:40vh;
-    padding-top:5vh;
-}
+    .LandingLinks {
+        color:white;
+    }
 
-.logos {
-    padding-top: 7vh;
-    margin-right: 3%;
-    margin-left: 3%;
+    /* added photoid */
+    #photoid {
+        position:absolute;
+        right:5px;
+        bottom: 5px;
+        font-size: small;
+    }
+
+    .About-sec {
+        width: 100%;
+        min-height: 100vh;
+        padding-top: 13%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    #photo-layout {
+        max-height: 60vh;
+        border: 3px solid white;
+        border-radius: 20px;
+        margin-left: 10vw;
+    }
+
+    .Abouttext {
+        font-size: 14px;
+        color: #040415;
+        overflow-wrap: break-word;
+        text-align: left;
+        padding-top: 5vw;
+    }
+
+    .Abouttext > #resume {
+        color: rgb(86, 88, 121)
+    }
+
+    .projects-sec {
+        text-align: center;
+        color: #040415;
+        min-height: 100vh;
+        padding-top: 15%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .projecttitle {
+        font-size: 22px;
+    }
+
+    .languages {
+        font-size: 14px;
+    }
+
+    .calcproject {
+        max-width: 80vw;
+        box-shadow: 7px 7px 7px #7a7a7a;
+    }
+
+    footer {
+        text-align:center;
+        background-color: #040415;
+        color:rgb(156, 156, 156);
+        height:40vh;
+        padding-top:5vh;
+    }
+
+    .logos {
+        margin-top: 6.5vh;
+        margin-right: 3%;
+        margin-left: 3%;
+    }
 }
