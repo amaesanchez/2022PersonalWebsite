@@ -53,7 +53,6 @@ body {
     .About-sec {
         display:grid;
         grid-template-columns: 1fr 1fr;
-        width: 100vw;
         min-height: 100vh;
         padding-top: 100px;
         padding-left: 13%;
@@ -88,11 +87,11 @@ body {
         color: #040415;
     }
 
-    .projecttitle {
+    #projecttitle {
         font-size: 28px;
     }
 
-    .languages {
+    #languages {
         font-size: 16px;
     }
 
@@ -166,12 +165,11 @@ body {
     }
 
     .About-sec {
-        width: 100%;
+        text-align: center;
         min-height: 100vh;
         padding-top: 13%;
         padding-left: 10%;
         padding-right: 10%;
-        text-align: center;
     }
 
     #photo-layout {
@@ -201,11 +199,11 @@ body {
         padding-right: 10%;
     }
 
-    .projecttitle {
+    #projecttitle {
         font-size: 22px;
     }
 
-    .languages {
+    #languages {
         font-size: 14px;
     }
 
