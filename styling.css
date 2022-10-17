@@ -1,6 +1,7 @@
 body {
     background-color: rgb(253, 247, 232);
     font-family: 'Adegoke', sans-serif;
+    /* this is to disable ligatures, so "fi" shows up on web */
     font-feature-settings:"liga" 0;
 }
 
