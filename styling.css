@@ -2,58 +2,80 @@ body {
     background-color: rgb(253, 247, 232);
     font-family: 'Adegoke', sans-serif;
     /* this is to disable ligatures, so "fi" shows up on web */
-    font-feature-settings:"liga" 0;
+    font-feature-settings: "liga" 0;
+}
+
+.navbar, .navbar-brand {
+    background-color: #040415;
+}
+
+.navbar-brand {
+    font-size: large;
+}
+
+.jumbotron {
+    background: url("./photos/NightSky.jpg") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    padding-top: 18%;
+    padding-left: 13%;
+    padding-right: 13%;
+    padding-bottom: 18%;
+    position: relative;
+}
+
+.LandingLinks {
+    color: white;
+}
+
+.LandingLinks:hover {
+    color:#6969ab;
+}
+
+/* added photoid */
+#photoid {
+    position: absolute;
+    right: 15px;
+    bottom: 5px;
+    font-size: small;
+}
+
+.Abouttext > #resume {
+    color: rgb(86, 88, 121)
+}
+
+footer {
+    text-align:center;
+    background-color: #040415;
+    color:rgb(156, 156, 156);
+    height:40vh;
+    padding-top:5vh;
+}
+
+.logos {
+    margin-top: 6.5vh;
+    margin-right: 3%;
+    margin-left: 3%;
 }
 
 /* For screens larger than 601px width */
 @media screen and (min-width: 601px) {
-    .navbar, .navbar-brand {
-        background-color: #040415;
-    }
-
-    .navbar-brand {
-        font-size: large;
-    }
-
-    .jumbotron {
-        background: url("./photos/NightSky.jpg") no-repeat center;
-        background-size: cover;
-        height:100vh;
-        width: 100%;
-        color: white;
-        padding-top: 18%;
-        padding-left: 13%;
-        padding-right: 13%;
-        padding-bottom: 18%;
-        position: relative;
-    }
-
     .jumbotron > #LandingTitle {
         font-size: 80px;
     }
 
     .jumbotron > #FirstHeader {
-        font-size: 33px;
+        font-size: 35px;
     }
 
     .jumbotron > #SecHeader {
         font-size: 18px;
     }
 
-    .LandingLinks {
-        color:white;
-    }
-
-    /* added photoid */
-    .jumbotron > #photoid {
-        position:absolute;
-        right:5px;
-        bottom: 5px;
-        font-size: small;
-    }
-
     .About-sec {
-        display:grid;
+        display: grid;
         grid-template-columns: 1fr 1fr;
         min-height: 100vh;
         padding-top: 100px;
@@ -74,10 +96,6 @@ body {
         color: #040415;
         overflow-wrap: break-word;
         text-align: left;
-    }
-
-    .Abouttext > #resume {
-        color: rgb(86, 88, 121)
     }
 
     .projects-sec {
@@ -101,47 +119,12 @@ body {
         max-width: 450px;
         box-shadow: 7px 7px 7px #7a7a7a;
     }
-
-    footer {
-        text-align:center;
-        background-color: #040415;
-        color:rgb(156, 156, 156);
-        height:40vh;
-        padding-top:5vh;
-    }
-
-    .logos {
-        margin-top: 6.5vh;
-        margin-right: 3%;
-        margin-left: 3%;
-    }
 }
 
 
 
 /* Layout in mobile screens */
 @media screen and (max-width: 600px) {
-    .navbar, .navbar-brand {
-        background-color: #040415;
-    }
-
-    .navbar-brand {
-        font-size: large;
-    }
-
-    .jumbotron {
-        background: url("./photos/NightSky.jpg") no-repeat center;
-        background-size: cover;
-        height:100vh;
-        width: 100%;
-        color: white;
-        padding-top: 18%;
-        padding-left: 13%;
-        padding-right: 13%;
-        padding-bottom: 18%;
-        position: relative;
-    }
-
     .jumbotron > #LandingTitle {
         font-size: 60px;
       }
@@ -151,19 +134,7 @@ body {
     }
 
     .jumbotron > #SecHeader {
-        font-size:18px;
-    }
-
-    .LandingLinks {
-        color:white;
-    }
-
-    /* added photoid */
-    #photoid {
-        position:absolute;
-        right:5px;
-        bottom: 5px;
-        font-size: small;
+        font-size: 18px;
     }
 
     .About-sec {
@@ -188,10 +159,6 @@ body {
         padding-top: 5vw;
     }
 
-    .Abouttext > #resume {
-        color: rgb(86, 88, 121)
-    }
-
     .projects-sec {
         text-align: center;
         color: #040415;
@@ -212,19 +179,5 @@ body {
     .calcproject {
         max-width: 80vw;
         box-shadow: 7px 7px 7px #7a7a7a;
-    }
-
-    footer {
-        text-align:center;
-        background-color: #040415;
-        color:rgb(156, 156, 156);
-        height:40vh;
-        padding-top:5vh;
-    }
-
-    .logos {
-        margin-top: 6.5vh;
-        margin-right: 3%;
-        margin-left: 3%;
     }
 }
