@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(253, 247, 232);
+    background-color: rgb(255, 250, 219);
     font-family: 'Adegoke', sans-serif;
     /* this is to disable ligatures, so "fi" shows up on web */
     font-feature-settings: "liga" 0;
@@ -107,6 +107,10 @@ footer {
         color: #040415;
     }
 
+    .project-container {
+        margin-bottom: 100px;
+    }
+
     #projecttitle {
         font-size: 28px;
     }
@@ -115,7 +119,7 @@ footer {
         font-size: 16px;
     }
 
-    .calcproject {
+    .projects {
         max-width: 450px;
         box-shadow: 7px 7px 7px #7a7a7a;
     }
@@ -176,7 +180,7 @@ footer {
         font-size: 14px;
     }
 
-    .calcproject {
+    .projects {
         max-width: 80vw;
         box-shadow: 7px 7px 7px #7a7a7a;
     }
